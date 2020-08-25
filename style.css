@@ -1,10 +1,10 @@
+/* Rearranged to closer match the order they appear in the HTML */
 * {
     box-sizing: border-box;
     /* leave padding and margin at 0 in case the browser has a different default */
     padding: 0;
     margin: 0;
 }
-
 /*Navigation Styling */
 .topnav {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,8 +23,6 @@ h1 {
     color: #d9dcd6;
 }
 
-/* Removed header and div since there is only one list*/
-
 ul li {
 /* Any li that propagates up to an ul display these*/
     display: inline-block;
@@ -37,16 +35,13 @@ a {
     float: right;
 }
 
-
 /* Body section */
-
 body {
     background-color: #d9dcd6;
 }
 
 /* Main Section */
-
-.hero {
+.fullPage {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -75,8 +70,7 @@ p {
     font-size: 16px;
 }
 
-
-.darkBlueBackGround {
+.mainBackGround {
     margin-bottom: 20px;
     padding: 50px;
     height: auto;
@@ -85,20 +79,18 @@ p {
     color: #ffffff;
 }
 
-.darkBlueBackGround img {
+.mainBackGround img {
     max-height: 100px;
 }
 
 /* Aside Section */
-
-
-.benefit-cost img {
+.asideBackGround img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefits {
+.asideBackGround {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -109,63 +101,23 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.asideSection {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.asideSection h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.asideSection img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
-
-
-
-
-
-
-
-
+/*Footer Section*/
 .footer {
     padding: 30px;
     clear: both;
