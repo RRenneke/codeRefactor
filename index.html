@@ -5,29 +5,33 @@
     <meta charset="UTF-8" />
     <!--updated CSS stylesheet and updated title-->
     <link rel="stylesheet" href="style.css">
-    <title>Refactor Website</title>
+    <!--updated title to be more descriptive was <title>website</title> -->
+    <title>Horiseon Website Refactoring Homework</title>
 </head>
 
 <body>
     <!--Navigation Section-->
-    <!--Added nav element to get rid of all the divs. Used w3Schools to help with styling-->
-    <nav> 
-        <!--Updated seo to ID since it is specific. updated CSS-->
-        <ul class="topnav">
-            <li><h1>Hori<span id="seo">seo</span>n</h1></li>
-            <li><a href="#search-engine-optimization">Search Engine Optimization</a></li>
-            <li><a href="#online-reputation-management">Online Reputation Management</a></li>
-            <li><a href="#social-media-marketing">Social Media Marketing</a></li>
-        </ul>
-    </nav>
+    <div class="header">
+        <!--Updated seo to ID since it is specific-->
+        <h1>Hori<span id="seo">seo</span>n</h1>
+        <!--Was a div, updated to semantic element-->
+        <nav>
+            <ul>
+                <!--condensed to one line each-->
+                <li><a href="#search-engine-optimization">Search Engine Optimization</a></li>
+                <li><a href="#online-reputation-management">Online Reputation Management</a></li>
+                <li><a href="#social-media-marketing">Social Media Marketing</a></li>
+            </ul>
+        </nav>
+    </div>
 
 
-        <!--Sections Section-->
-        <!--Updated divs and classes to make sense with section-->
-        <!--updated sentax-->
+<!--Sections Section-->
+<!--Updated divs and classes to make sense with section-->
     <div class="fullPage">
-        <main class="mainContent">
-<!--removed the id from each section since class and ID are not needed. Renamed class so it makes sense on all three section. Updated in CSS-->
+        <!--Was <div class="content">, updated to semantic element-->
+        <section>
+            <!--removed the id from each section since class and ID are not needed. Renamed class so it makes sense on all three sections.-->
             <div class="mainBackGround">
                 <img src="Images/search-engine-optimization.jpg" class="float-left">
                 <h2>Search Engine Optimization</h2>
@@ -43,11 +47,12 @@
                 <h2>Social Media Marketing</h2>
                 <p>Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.</p>
             </div>
-        </main>
+        </section>
 
-<!--updated div to aside and updated class name-->
-        <aside class="asideBackGround">
-            <!--Updated class name so it can be used on all three. Updated CSS-->
+<!--Aside Section->
+        <!--Was <div class="benefits">, updated to semantic element-->        
+        <aside>
+            <!--Updated class name from <div class="benefit-lead"> so it can be used on all three.-->
             <div class="asideSection">
                 <h3>Lead Generation</h3>
                 <img src="Images/social-media-marketing.jpg">
@@ -66,8 +71,10 @@
         </aside>
     </div>
 
-    <footer class="footer">
+    <!--Was <footer class="footer">,-->
+    <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
+        <!--put paragraph on one line-->
         <p> &copy; 2019 HoFriseon Social Solution Services, Inc.</p>
     </footer>
 </body>

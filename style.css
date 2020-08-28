@@ -5,26 +5,46 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    background-color: #d9dcd6;
+}
+
 /*Navigation Styling */
-.topnav {
+.header {
+    padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-    list-style-type: none;
-    font-size: 20px;
 }
 
+/* Was .header h1, updated since no other h1 on site*/
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*was header he .seo, updated since it's it's own id*/
 #seo {
     color: #d9dcd6;
 }
 
-ul li {
-/* Any li that propagates up to an ul display these*/
+/*Updated name from header div to nav*/
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*Updated name from header div to nav*/
+nav ul {
+    list-style-type: none;
+}
+
+/*Updated name from header div to nav*/
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -32,12 +52,6 @@ ul li {
 a {
     color: #ffffff;
     text-decoration: none;
-    float: right;
-}
-
-/* Body section */
-body {
-    background-color: #d9dcd6;
 }
 
 /* Main Section */
@@ -50,12 +64,27 @@ body {
     background-position: center;
 }
 
-.mainContent {
+/* Was content*/
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* was .search-engine-optimization, .online-reputation-management, and .social-media-marketing */
+.mainBackGround {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Was .search-engine-optimization img, .online-reputation-management img and .social-media-marketing*/
+.mainBackGround img {
+    max-height: 100px;
+}
 .float-left {
     float: left;
     margin-right: 25px;
@@ -70,27 +99,9 @@ p {
     font-size: 16px;
 }
 
-.mainBackGround {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.mainBackGround img {
-    max-height: 100px;
-}
 
 /* Aside Section */
-.asideBackGround img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.asideBackGround {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -118,7 +129,7 @@ p {
 }
 
 /*Footer Section*/
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
