@@ -30,5 +30,5 @@ https://github.com/RRenneke/codeRefactor
 
 https://rrenneke.github.io/codeRefactor/
 
-
+View when the user is on a cell phone:
 <img src="Images/HoriseonCellPhoneScreenShot.png" alt="Website sreen shot for a cell phone user" width="100">
