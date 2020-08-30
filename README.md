@@ -28,4 +28,5 @@ https://github.com/RRenneke/codeRefactor
 https://rrenneke.github.io/codeRefactor/
 
 
-
+<img src="Images/HoriseonComputerScreenShot.png" alt="Website sreen shot for a computer user" width="100">
+<img src="Images/HoriseonCellPhoneScreenShot.png" alt="Website sreen shot for a cell phone user" width="100>
